@@ -64,8 +64,12 @@ export const Route = createRootRoute({
             </div>
           </div>
         </footer>
-        <TanStackRouterDevtools />
-        <ReactQueryDevtools initialIsOpen={false} />
+        {process.env.NODE_ENV === "development" && (
+          <>
+            <TanStackRouterDevtools />
+            <ReactQueryDevtools initialIsOpen={false} />
+          </>
+        )}
       </ThemeProvider>
     </QueryClientProvider>
   ),
