@@ -1,0 +1,47 @@
+{
+  "name": "rn-bug-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --report-unused-disable-directives",
+    "lint:strict": "eslint src --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "@octokit/types": "^14.1.0",
+    "@tailwindcss/vite": "^4.1.10",
+    "@tanstack/react-query": "^5.80.10",
+    "@tanstack/react-query-devtools": "^5.80.10",
+    "@tanstack/react-router": "^1.91.3",
+    "@tanstack/router-devtools": "^1.91.3",
+    "@tanstack/router-plugin": "^1.91.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.515.0",
+    "react": "^19.0.0",
+    "react-aria-components": "^1.4.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^16.2.0",
+    "typescript": "^5",
+    "vite": "^6.0.3"
+  }
+}
